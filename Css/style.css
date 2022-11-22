@@ -1,0 +1,56 @@
+/*Estilos generales*/
+body{
+    color: #666;
+    background-color: #c2c8c8;
+    line-height: 22.4px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #1512b3;
+    line-height: 22.4px;
+}
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 300;
+}
+p {
+    margin: 22.4px 0;
+}
+    p.intro{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 19.2px;
+        line-height: 22.4 px;
+        border-top:1.04px #ccc solid;
+        border-bottom: 1.04px #ccc solid;
+        padding: 16px;
+    }
+img {
+    max-width: 100%;
+    height: auto;
+}
+a {
+   color: #6cab61;
+   text-decoration: none;
+   transition: all 0.2s linear;
+
+}
+    a:hover{
+        color: #437d38;
+        text-decoration: underline;
+
+    }
+/*contenido*/
+.container{
+    background: white;
+    width: 90%;
+    max-width: 1000px;
+    margin: 32px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
