@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5 {
     line-height: 22.4px;
 }
 h1 {
-    font-size: 48px;
+    font-size: 5px;
     margin: 0;
 }
 h2 {
@@ -66,34 +66,46 @@ a {
 
 .menu{
     margin: 0;
-    padding: 0;
+    padding: 0 2em;
     list-style: none;
-    background: #ccc;
+    background: #333;
+    text-align: left;
 }
+    .menu li{
+        display: inline-block;
+    }
+        .menu li a{
+            display: block;
+            padding: 1eme;
+            color: white;
+        }
+            .menu li a:hover {
+                background: #6cab61;
+            }
 #area-contenido{
     display: table;
 
 }
-#columna-contenido, #sidebar {
+    #columna-contenido, #sidebar {
     display: table-cell;
-}
-#columna-contenido{
+    }
+    #columna-contenido{
     width: 70%;
     padding: 2em 2em;
 
-}
-#columna-contenido header h2{
-    margin-top:0;
-}
-#sidebar{
+    }
+        #columna-contenido .cabecera-pagina h2{
+        margin-top:0;
+        }
+    #sidebar{
     width: 30%;
     background: #f8f8f8;
     border-left: 0.0625rem solid #dbdbdb;
     padding: 2em;
-}
-#sider .widget:first-child h3{
-    margin-top: 0;
-}
+    }
+        #sider .widget:first-child h3{
+        margin-top: 0;
+        }
 
 #pie-pagina{
     background: #333;
@@ -101,3 +113,7 @@ a {
     text-align: center;
     padding: 1em 0;
 }
+    #pie-pagina a:hover{
+        text-decoration: underline;
+        color: white;
+    }
