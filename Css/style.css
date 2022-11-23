@@ -54,3 +54,50 @@ a {
     margin: 32px auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
+
+/* las clases*/
+#cabecera{
+    
+    text-align: center;
+}
+#cabecera h1{
+    padding: 1em 0 ;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #ccc;
+}
+#area-contenido{
+    display: table;
+
+}
+#columna-contenido, #sidebar {
+    display: table-cell;
+}
+#columna-contenido{
+    width: 70%;
+    padding: 2em 2em;
+
+}
+#columna-contenido header h2{
+    margin-top:0;
+}
+#sidebar{
+    width: 30%;
+    background: #f8f8f8;
+    border-left: 0.0625rem solid #dbdbdb;
+    padding: 2em;
+}
+#sider .widget:first-child h3{
+    margin-top: 0;
+}
+
+#pie-pagina{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
